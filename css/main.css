@@ -186,3 +186,32 @@ margin-top: -20px;
 }
 
 /* box03 */
+#box03{
+  background: #e8e8e8;
+}
+#box03>div{}
+#box03>div>div{
+  widows: 1100px;
+  margin: 0 auto;
+  /* background: green; */
+  padding-left: 440px;
+  box-sizing: border-box;
+  position: relative;
+}
+#box03>div>div>figure{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#box03 .btn{
+  text-align: right;
+}
+#box03 .btn>button{
+  width: 196px;
+  height: 54px;
+  background: #9c9491;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 27px;
+  color: #fff;
+}
