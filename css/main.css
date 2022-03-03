@@ -87,8 +87,54 @@ nav .close{}
   background: green;
   position: relative;
 }
-#box01>h2{}
-#box01>ul{}
-#box01.no{}
+#box01>h2{
+  position: absolute;
+  width: 676px;
+  height: 280px;
+  left: 50%;
+  top: 50%;
+  margin: -140px 0 0 -338px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif, arial;
+  font-size: 70px;
+  font-weight: lighter;
+  color: white;
+  line-height: 70px;
+  border: 1px solid white;
+}
+#box01>ul{
+  width: 400%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-start;  얘는 필요없는것*/
+}
+#box01>ul>li{
+  width: 25%;
+  height: 100%;
+  background: url('../images/blue.jpg') no-repeat center top;
+  background-size: 100%;
+  text-indent: -9999999px;
+}
+#box01>ul>li.no02{background-image: url('../images/green.jpg');}
+#box01>ul>li.no03{background-image: url('../images/pink.jpg');}
+#box01>ul>li.no04{background-image: url('../images/purple.jpg');}
+#box01>.no{
+  position: absolute;
+  right: 100px;
+  bottom: 30px;
+  background-color: red;
+}
+#box01>.no>a{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 8px;
+  border-radius: 50%;
+  background: #fff;
+  text-indent: -999999px;
+}
 #box01.prev{}
 #box01.next{}
