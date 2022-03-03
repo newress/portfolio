@@ -229,7 +229,6 @@ margin-top: -20px;
 #box04>div>div>ul{
   width: 50%;
 }
-#box04>div>div>ul.text{ 머드라...?}
 #box04>div>div>ul>li{
   width: 50%;
   height: 80px;
@@ -252,3 +251,46 @@ margin-top: -20px;
 #box04>div>div>ul>li:nth-child(12){background-image: none;}
 
 /* box05 */
+#box05{
+  background: #c3c3c3;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#bix05 a{
+  color: #fff;
+}
+#box05>div{}
+#box05>div>.text{
+  width: 60%;
+  margin: 0 auto 50px;
+}
+/* tap 메뉴 */
+#box05>div>ul{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+#box05>div>ul>li{
+  border-left: 1px solid #fff;
+  padding: 0 10px;
+  line-height: 1;
+}
+/* 전체 : 버튼 */
+#box05 .box{}
+#box05 #show{}
+#box05 #all{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#box05 #all>figure{
+  width: calc(33.33333% - 18px);
+  margin-bottom: 50px;
+}
+#box05 #all>figure>img{
+  margin-bottom: 50px;
+}
+/* 버튼 */
+#box05 .box>.prev{}
+#box05 .box>.next{}
