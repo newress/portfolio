@@ -21,7 +21,7 @@ header>div, article>div{
   margin: 0 auto;
 }
 #box02, #box03, #box04, #box05, #box06{
-  padding: 85px, 0;
+  padding: 85px 0;
 }
 div>h3{
   font-size: 48px;
@@ -35,3 +35,47 @@ div>h3{
 .text{
   margin-bottom: 50px;
 }
+
+/* header */
+header{
+  padding: 18px 0;
+  background: #000;
+  /* 타블릿 모바일 버튼 */
+  position: relative;
+}
+header>div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header h1>a{
+  font-family: '나눔고딕', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+nav{}
+nav>ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav>ul>li{
+  margin-left: 40px;
+}
+nav>ul>li>a{
+  font-weight: bold;
+  color: #fff;
+}
+/* header 버튼 */
+#btn{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  background: red;
+  display: none;
+}
+#nav .close{}
