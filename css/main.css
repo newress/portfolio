@@ -126,6 +126,7 @@ nav .close{}
   right: 100px;
   bottom: 30px;
   background-color: red;
+  line-height: 50%;
 }
 #box01>.no>a{
   display: inline-block;
