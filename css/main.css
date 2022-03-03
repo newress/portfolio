@@ -137,5 +137,21 @@ nav .close{}
   background: #fff;
   text-indent: -999999px;
 }
-#box01.prev{}
-#box01.next{}
+#box01>.prev{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left : 50px;
+  top: 50%;
+  border: 1px solid white;
+  margin-top: -20px;
+}
+#box01>.next{
+  position: absolute;
+width: 40px;
+height: 40px;
+right: 50px;
+top: 50%;
+border: 1px solid white;
+margin-top: -20px;
+}
