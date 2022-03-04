@@ -17,7 +17,7 @@ body{
 }
 
 header>div, article>div{
-  width: 1320px;
+  width: 98%/*1320px*/;
   margin: 0 auto;
 }
 #box02, #box03, #box04, #box05, #box06{
@@ -78,7 +78,13 @@ nav>ul>li>a{
   background: red;
   display: none;
 }
-nav .close{}
+nav .close{
+  position: absolute;
+  right: 20px; top: 20px;
+  width: 30px; height: 30px;
+  background: red;
+  display: none;
+}
 
 /* #box01 */
 #box01{
@@ -86,6 +92,7 @@ nav .close{}
   height: calc(100vh - 70px);
   /* background: green; */
   position: relative;
+  overflow: hidden;
 }
 #box01>h2{
   position: absolute;
@@ -308,7 +315,7 @@ margin-top: -20px;
 }
 #box06>div{}
 #box06>div>div{
-  width: 1100px;
+  width: 98% /*1100px*/;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
