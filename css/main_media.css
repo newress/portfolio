@@ -91,6 +91,21 @@ nav .close{
 #box02>div{
   justify-content: space-evenly;
 }
+/* box03 */
+#box03>div{}
+#box03>div>div{
+  padding-left: 0px;
+}
+#box03>div>div>figure{
+  position: static;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#box03 .title{
+  text-align: center;
+}
+#box03 .text{
+
 }
 @media screen and (max-width : 579px) and (min-width : 230px){
 
