@@ -392,3 +392,38 @@ footer{
   font-size: 16px;
   line-height: 1;
 }
+
+/* aside */
+aside>ul{
+  position: fixed;
+  right: 10px;
+  top: 50%;
+}
+aside>ul>li{
+  margin-bottom: 10px;
+}
+aside>ul>li>a{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-indent: -99999px;
+  background: orange;
+}
+aside>ul>li>a.selected{
+  background: #000
+}
+aside>p{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+
+}
+aside>p>a{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: red;
+  color: #fff;
+  text-indent: -99999px;
+}
