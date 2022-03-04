@@ -71,6 +71,22 @@ nav>ul>li>a{
 nav .close{
   display: block;
 }
+/* box01 */
+#box01{
+  /* width: auto; */
+  height: 100vh;
+}
+#box01>h2{
+  position: absolute;
+  width: 100%; 
+  left: 0%; top: 50%;
+  margin: -140px 0 0 0;
+  border: none;
+  font-size: 50px;
+}
+#box01>ul>li{
+  background-size: auto 100%;
+}
 }
 @media screen and (max-width : 579px) and (min-width : 230px){
 
