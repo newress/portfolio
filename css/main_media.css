@@ -104,7 +104,28 @@ nav .close{
 #box03 .title{
   text-align: center;
 }
-#box03 .text{
+/* box04 */
+#box04>div>div{
+  display: block;
+}
+#box04>div>div>div{
+  width: 88vw;
+  margin: 0 auto;
+}
+#box04>div>div>div>.title{
+  text-align: center;
+}
+#box04>div>div>div>.text{
+  width: auto;
+  text-align: center;
+}
+#box04>div>div>ul{
+  width: 60vw;
+  margin: 0 auto;
+  overflow: hidden;;
+}
+/* box 05 */
+
 
 }
 @media screen and (max-width : 579px) and (min-width : 230px){
