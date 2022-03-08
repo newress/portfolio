@@ -158,7 +158,42 @@ nav .close{
 #box05 #all>figure>img{
   margin-bottom: 15px;
 }
+/* box06 */
+#box06>div{}
+#box06>div>div{
+  width: 88vw;
+  margin: 0 auto;
+  display: block;
+}
+#box06>div>div>div{
+  width: auto;
+  margin-bottom: 45px;
+}
+#box06>div>div>div .title{
+  text-align: center;
+}
+#box06>div>div>div .text{
+  text-align: center;
+  width: auto;
+}
+#box06>div>div>div dl{
+  width: 76vw;
+  margin: 0 auto 1px;
+  margin-bottom: 0;
+}
+#box06>div>div>div dl>dt{
+  display: inline-block;
+}
+#box06>div>div>div dl>dd{
+  padding-left: 0;
+  display: inline-block;
+}
 
+#box06>div>div>form{
+  width: 76vw;
+  padding: 0;
+  margin: 0 auto;
+}
 }
 @media screen and (max-width : 579px) and (min-width : 230px){
 
