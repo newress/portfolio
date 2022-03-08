@@ -146,6 +146,7 @@ nav .close{
 #box05 #show{
   width: 80vw;
   margin: 0 auto;
+  overflow: hidden;
 }
 #box05 #all{
   width: 160vw;
@@ -235,7 +236,7 @@ header h1>a{
 nav{
   position: fixed;;
   /*left: 0;*/
-  left : -100px; top: 0;
+  left : -100%; top: 0;
   width: 100%;
   height: 100%;
   background: rgba(0,0,0,0.5);
@@ -297,5 +298,106 @@ nav .close{
   height: 5vw;
   right : 5vw;
   margin-top: -2.5vw;
+}
+/* box 02 */
+
+#box02{}
+#box02>div{
+  width: 90vw;
+  display: block;
+}
+#box02>div>dl{
+  width: auto;
+  padding: 25px 0;
+  background: #9c9491;
+  margin-bottom: 25px;
+}
+#box02>div>dl:last-child{margin-bottom: 0;}
+#box02>div>dl:nth-child(2){background-image: none;}
+#box02>div>dl:nth-child(3){background-image: none;}
+#box02>div>dl>dt{
+  margin-bottom: 20px;
+}
+
+/* box 03 */
+#box03>div{}
+#box03>div>div{
+  width: auto;
+  padding-left: 0;
+}
+#box03>div>div>figure{
+  position: static;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#box03>div>div>div{
+  width: 90vw;
+  margin: 0 auto;
+}
+#box03>div>div>div>.title{
+  text-align: center;
+}
+#box03 .btn{
+  text-align: center;
+}
+
+/* box04 */
+#box04>div>div{
+  width: 90vw;
+  display: block;
+  margin: 0 auto;
+}
+#box04>div>div>div{
+  width: auto;
+}
+#box04>div>div>ul{
+  width: 80vw;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#box04>div>div>div>.title{
+  text-align: center;
+}
+#box04>div>div>div>.text{
+  width: auto;
+  text-align: center;
+}
+/* box 05 */
+#box05 .box{
+  position: relative;
+}
+#box05 .box>.prev{
+  position: absolute;
+  top: 50%;
+  left: 2.5vw;
+  width: 5vw;
+  height: 5vw;
+  background: red;
+  margin-top: -2.5vw;
+}
+#box05 .box>.next{
+  position: absolute;
+  top: 50%;
+  right: 2.5vw;
+  width: 5vw;
+  height: 5vw;
+  background: red;
+  margin-top: -2.5vw;
+}
+#box05 #show{
+  width: 80vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#box05 #all{
+  width: 240vw;
+}
+#box05 #all>figure{
+  width: 30vw;
+  margin-bottom: 0;
+  margin: 0 5vw;
+}
+#box05 #all>figure>img{
+  margin-bottom: 10px;
 }
 }
